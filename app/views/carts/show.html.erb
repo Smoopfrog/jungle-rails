@@ -4,10 +4,12 @@
     <h1>My Cart</h1>
   </header>
   <% if cart.size == 0 %>
-    <div class="alert alert-warning" role="alert">
-      Your cart is empty! 
-      <a href="<%= root_path %>">Return home.</a>
-    <div>
+    <div class="alert alert-success" role="alert">
+      <h4 class="alert-heading">Your cart is empty! </h4>
+      <p> Return home and continue shopping. </p>
+      <hr>
+      <a class="mb-0"href="<%= root_path %>">Return Home</a>
+    </div>
   <% else %>
     <div class="panel panel-default items">
       <table class="table table-bordered">
