@@ -1,4 +1,3 @@
-
 describe('product page', () => {
   before(() => {
     cy.visit("/")
