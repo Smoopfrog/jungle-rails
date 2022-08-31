@@ -25,7 +25,8 @@ CypressRails.hooks.before_server_start do
   })
 
   user1 = User.create!({
-    name: 'Test',
+    firstname: 'Test',
+    lastname: 'Tester',
     password: '12345678',
     password_confirmation: '12345678',
     email: 'test@email.com'

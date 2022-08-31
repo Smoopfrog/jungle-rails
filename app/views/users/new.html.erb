@@ -2,7 +2,10 @@
 
 <%= form_for :user, url: '/users' do |f| %> 
   <div>
-    Name: <%= f.text_field :name %>
+    First name: <%= f.text_field :firstname %>
+  </div>
+    <div>
+    Last name: <%= f.text_field :lastname %>
   </div>
   <div>
     Email: <%= f.text_field :email %>
