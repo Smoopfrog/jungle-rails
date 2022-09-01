@@ -4,14 +4,14 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 
 ## Screenshots
-!["Screenshot of the home view"](https://github.com/Smoopfrog/jungle-rails/blob/master/public/images/home_page.png)
 >Jungle home page
+!["Screenshot of the home view"](https://github.com/Smoopfrog/jungle-rails/blob/master/public/images/home_page.png)
 
-!["Screenshot of the products view"](https://github.com/Smoopfrog/jungle-rails/blob/master/public/images/product_page.png)
 >Products view
+!["Screenshot of the products view"](https://github.com/Smoopfrog/jungle-rails/blob/master/public/images/product_page.png)
 
-!["Screenshot of the cart view"](https://github.com/Smoopfrog/jungle-rails/blob/master/public/images/cart_page.png)
 >Cart view
+!["Screenshot of the cart view"](https://github.com/Smoopfrog/jungle-rails/blob/master/public/images/cart_page.png)
 
 ## Setup
 
