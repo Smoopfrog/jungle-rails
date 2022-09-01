@@ -2,6 +2,13 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+
+## Screenshots
+!["Screenshot of the home view"](https://github.com/Smoopfrog/tweeter/blob/master/docs/desktop-view.png)
+!["Screenshot of the products view"](https://github.com/Smoopfrog/tweeter/blob/master/docs/mobile-view.png)
+!["Screenshot of the cart view"](https://github.com/Smoopfrog/tweeter/blob/master/docs/tweet-view.png)
+
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
