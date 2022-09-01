@@ -5,9 +5,13 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 ## Screenshots
 !["Screenshot of the home view"](https://github.com/Smoopfrog/jungle-rails/blob/master/public/images/home_page.png)
-!["Screenshot of the products view"](https://github.com/Smoopfrog/jungle-rails/blob/master/public/images/product_page.png)
-!["Screenshot of the cart view"](https://github.com/Smoopfrog/jungle-rails/blob/master/public/images/cart_page.png)
+>Jungle home page
 
+!["Screenshot of the products view"](https://github.com/Smoopfrog/jungle-rails/blob/master/public/images/product_page.png)
+>Products view
+
+!["Screenshot of the cart view"](https://github.com/Smoopfrog/jungle-rails/blob/master/public/images/cart_page.png)
+>Cart view
 
 ## Setup
 
@@ -36,3 +40,16 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Testing
+
+Run Cypress:
+```bash
+bin/rails cypress:open
+```
+- this will run all the tests in the `spec` folder.
+
+Run all rspec tests:
+```bash
+bin/rspec
+```
